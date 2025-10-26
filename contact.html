@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home - My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-    
+    <header class="header">
+        <a href="index.html" class="logo">SANA<span>RA.</span></a>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>   
+    </header>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>Ready To Bring Your Next Project To Life?</h4>
+            <p>Let's turn your vision into an interface that speaks louder than words.</p>
+            <div class="list">
+                <li><a href="#">+94 716 818 250</a></li>
+                <li><a href="#">sanaraperera2003@gmail.com</a></li>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="">
+                <input type="name" placeholder="Your Name " required>
+                <input type="email" placeholder="Your Email " required>
+                <input type="tel" placeholder="Your Mobile Number" required>
+                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+                <input type="submit" value="Submit" class="submit"required>
+            </form>
+        </div>
+
+
+    </section>
+
 </body>
+</html>
