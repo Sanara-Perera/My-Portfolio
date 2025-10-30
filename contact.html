@@ -9,48 +9,91 @@
 </head>
 
 <body>
+    <!-- ================================== Header / Navbar ================================== -->
     <header class="header">
-        <a href="index.html" class="logo">SANA<span>RA.</span></a>
-        <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon">☰</label>
+        <a href="index.html" class="logo">SANA<span>RA.</span></a>  <!-- Logo with span for color effect -->
+        <input type="checkbox" id="menu-toggle" />   <!-- Menu toggle checkbox for mobile menu -->
+        <label for="menu-toggle" class="menu-icon">☰</label>  <!-- Label acts as menu icon (☰) -->
         <nav class="navbar">
-            <a href="index.html">Home</a>
+            <a href="index.html">Home</a>  <!-- Active link demonstrates specificity & pseudo-class usage -->
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
             <a href="contact.html" class="active">Contact</a>
-        </nav>   
+        </nav>
+    
     </header>
+
+    <!-- ================================== Contact Section ================================== -->
 
     <section class="contact" id="contact">
         <div class="contact-text">
             <h2>Contact <span>Me!</span></h2>
             <h4>Ready To Bring Your Next Project To Life?</h4>
             <p>Let's turn your vision into an interface that speaks louder than words.</p>
+            <!-- List of contact links -->
             <div class="list">
-                <li><a href="#">+94 716 818 250</a></li>
-                <li><a href="#">sanaraperera2003@gmail.com</a></li>
+                <li><a href="#">+94 716 818 250</a></li>   <!-- clickable phone link -->
+                <li><a href="#">sanaraperera2003@gmail.com</a></li> <!-- clickable email link -->
             </div>
 
             <div class="social-icons">
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/sanaraperera/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Sanara-Perera" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/_sanara_03/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://wa.me/94716818250" target="_blank"><i class='bx bxl-whatsapp'></i></a>
             </div>
         </div>
 
         <div class="contact-form">
             <form action="">
-                <input type="name" placeholder="Your Name " required>
+                <input type="name" placeholder="Your Name " required>  <!-- validity pseudo-class applied -->
                 <input type="email" placeholder="Your Email " required>
-                <input type="tel" placeholder="Your Mobile Number" required>
+                <input type="tel" placeholder="Your Mobile Number" required>     
                 <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
-                <input type="submit" value="Submit" class="submit"required>
+                <input type="submit" value="Submit" class="submit"required>  <!-- user action pseudo-class hover/active -->
             </form>
         </div>
-
-
     </section>
+
+  <!-- ================================== Footer Section ================================== -->
+  <footer class="footer">
+   <div class="footer-columns">
+    <!-- Left column: logo, description, footer nav-->
+     <div class="footer-left">
+      <a href="index.html" class="logo">SANA<span>RA.</span></a>
+      <p>Designing ideas that inspire and innovate.</p>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <!-- Right column: social icons & contact info -->
+    <div class="footer-right">
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/sanaraperera/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Sanara-Perera" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/_sanara_03/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://wa.me/94716818250" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+      <div class="footer-contact">
+        <p><i class='bx bx-envelope'></i> sanaraperera2003@gmail.com</p>
+        <p><i class='bx bx-map'></i> Colombo, Sri Lanka</p>
+        <p><i class='bx bx-phone'></i> +94 71 681 8250</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer bottom copyright -->
+  <div class="footer-bottom">
+    <p>© 2025 <span>Sanara Perera</span> | All Rights Reserved.</p>
+  </div>
+  </footer>
+
 
 </body>
 </html>
+
+

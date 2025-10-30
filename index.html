@@ -9,24 +9,25 @@
 </head>
 
 <body>
+    <!-- ================================== Header / Navbar ================================== -->
     <header class="header">
-        <a href="index.html" class="logo">SANA<span>RA.</span></a>
-        <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon">☰</label>
+        <a href="index.html" class="logo">SANA<span>RA.</span></a>  <!-- Logo with span for color effect -->
+        <input type="checkbox" id="menu-toggle" />   <!-- Menu toggle checkbox for mobile menu -->
+        <label for="menu-toggle" class="menu-icon">☰</label>  <!-- Label acts as menu icon (☰) -->
         <nav class="navbar">
-            <a href="index.html" class="active">Home</a>
+            <a href="index.html" class="active">Home</a>  <!-- Active link demonstrates specificity & pseudo-class usage -->
             <a href="about.html">About</a>
             <a href="projects.html">Projects</a>
             <a href="contact.html">Contact</a>
         </nav>
     
     </header>
-
+    
+    <!-- ================================== Home Section ================================== -->
     <section class="home" id="home">
         <div class="home-img">
             <img src="images/img1.jpg" alt="Profile">
         </div>
-
         <div class="home-content">
             <h1 class="typing">Hi, I'm Sanara Perera!</h1>
             <h3 class="typing typing-delay">WEB DESIGNER</h3>
@@ -34,16 +35,54 @@
                as well as AI-related technologies. I enjoy building projects that combine creativity & technology, 
                Eager to learn and explore new innovations in the digital world.</P>
             <div class="social-icons">
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/sanaraperera/" target="_blank"><i class='bx bxl-linkedin'></i></a> <!-- Social icons using Boxicons-->
+                <a href="https://github.com/Sanara-Perera" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/_sanara_03/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://wa.me/94716818250" target="_blank"><i class='bx bxl-whatsapp'></i></a>
             </div>
             <div class="btn-box">
                 <a href="#">Download CV</a>
             </div>
         </div>      
     </section>
+
+  <!-- ================================== Footer Section ================================== -->
+  <footer class="footer">
+   <div class="footer-columns">
+    <!-- Left column: logo, description, footer nav-->
+     <div class="footer-left">
+      <a href="index.html" class="logo">SANA<span>RA.</span></a>
+      <p>Designing ideas that inspire and innovate.</p>
+      <div class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+
+    <!-- Right column: social icons & contact info -->
+    <div class="footer-right">
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/sanaraperera/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Sanara-Perera" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/_sanara_03/" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href="https://wa.me/94716818250" target="_blank"><i class='bx bxl-whatsapp'></i></a>   
+      </div>
+      <div class="footer-contact">
+        <p><i class='bx bx-envelope'></i> sanaraperera2003@gmail.com</p>
+        <p><i class='bx bx-map'></i> Colombo, Sri Lanka</p>
+        <p><i class='bx bx-phone'></i> +94 71 681 8250</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer bottom copyright -->
+  <div class="footer-bottom">
+    <p>© 2025 <span>Sanara Perera</span> | All Rights Reserved.</p>
+  </div>
+</footer>
+
 
 </body>
 </html>
